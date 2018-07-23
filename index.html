@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>My Quiz Application</title>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+		 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+	<body>
+	
+	<!-- Quiz Question Elements - Questions are added using JavaScript -->
+	<div class="container">
+		<h1 class="title">Quiz App</h1>
+		<div class="row">
+			<form class="col-sm-7">
+				<div class="form-group">
+					<div id="question0"></div>
+					<input id="answer0" type="text" class="form-control">
+				</div>
+				<div class="form-group">
+					<div id="question1"></div>
+					<input id="answer1" type="text" class="form-control">
+				</div>
+				<div class="form-group">
+					<div id="question2"></div>
+					<input id="answer2" type="text" class="form-control">
+				</div>
+				<div class="form-group">
+					<div id="question3"></div>
+					<input id="answer3" type="text" class="form-control">
+				</div>
+				<div class="form-group">
+					<div id="question4"></div>
+					<input id="answer4" type="text" class="form-control">
+				</div>
+				<div class="form-group">
+					<div id="question5"></div>
+					<input id="answer5" type="text" class="form-control">
+				</div>
+				<div class="form-group">
+					<div id="question6"></div>
+					<input id="answer6" type="text" class="form-control">
+				</div>
+				<div class="form-group">
+					<div id="question7"></div>
+					<input id="answer7" type="text" class="form-control">
+				</div>
+				<div class="form-group">
+					<div id="question8"></div>
+					<input id="answer8" type="text" class="form-control">
+				</div>
+				<div class="form-group">
+					<div id="question9"></div>
+					<input id="answer9" type="text" class="form-control">
+				</div>
+				<br>
+				<!-- Submit Button -->
+				<button type="button" onclick="testResults()" class="btn btn-primary btn">See Results</button>
+
+						<!-- Display correct and incorrect totals -->
+			<div class="col-sm-2 col-sm-offset-1">
+				<h1 class="correct">Correct: <span id="correct"></span></h1>
+				<h1 class="incorrect">Incorrect:  <span id="incorrect"></span></h1>
+			</div>
+		</div>
+	</div>
+
+	<!-- custom script -->
+		<script type="text/javascript" src="js/main.js"></script>
+		
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  		
+  		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  		
+  		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+	</body>
+</html>
+
+
+
+
+
+
+
+
